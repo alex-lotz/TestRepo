@@ -41,13 +41,15 @@
 
 ## Component-Datasheet Properties
 
-<table class=myTable>
+<table style="border:1px solid black; border-collapse:collapse;">
 <caption>Component-Datasheet Properties</caption>
-<tr>
-<th>Property Name</th> <th>Property Value</th> <th>Property Description</th>
+<tr style="background-color:#ccc;">
+<th style="border:1px solid black;">Property Name</th>
+<th style="border:1px solid black;">Property Value</th>
+<th style="border:1px solid black;">Property Description</th>
 </tr>
 <tr>
-<td>SpdxLicense</td> <td>LGPL-2.0-or-later</td> <td>https://spdx.org/licenses/LGPL-2.0-or-later.html</td>
+<td style="border:1px solid black;">SpdxLicense</td> <td style="border:1px solid black;">LGPL-2.0-or-later</td> <td style="border:1px solid black;">https://spdx.org/licenses/LGPL-2.0-or-later.html</td>
 </tr>
 <tr>
 <td>TechnologyReadinessLevel</td> <td>TRL5</td> <td></td>
