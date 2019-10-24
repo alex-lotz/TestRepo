@@ -5,6 +5,9 @@
 
 <img src="model/SmartCdlServerComponentDefinition.jpg" alt="SmartCdlServer-ComponentImage" width="1000">
 
+*Component Short Description:* The SmartCdlServer is based on the Curvature Distance Lookup (CDL) algorithm for fast local obstacle avoidance.
+
+## Component Documentation
 <p>The SmartCdlServer is based on the <b>Curvature Distance Lookup (CDL)</b> algorithm for fast local obstacle avoidance.
 </p>
 <p> The CDL algorithm is an improvement of the dynamic window approach. It considers the dynamics and kinematics of the robot,
@@ -83,6 +86,7 @@
 
 ### LaserClient
 
+*Documentation:*
  Incoming laser scans that the CDL algorithm uses for obstacle avoidance, e.g. from SmartLaserLMS200Server
 
 <table style="border-collapse:collapse;">
@@ -102,16 +106,19 @@
 
 ### LaserClient2
 
+*Documentation:*
  Second (optional) laser client allows using two laser-scanners concurrently
 
 
 ### PlannerClient
 
+*Documentation:*
  Goals from planner (e.g. smartPlannerBreathFirstSearch) can be sent to this port
 
 
 ### NavVelSendServer
 
+*Documentation:*
 <p>Navigation commands <b>v</b> and <b>w</b> sent via this port will be considered when chosing a trajectory.
 </p>
 <p> This port can be used to ensure collision free navigation while following incoming navigation commands
@@ -139,19 +146,23 @@
 
 ### TrackingClient
 
+*Documentation:*
  Goals from tracking can be sent to this port. (e.g. smartLaserPersonTracker)
 
 
 ### IRClient
 
+*Documentation:*
 
 
 ### PathNavigationGoalClient
 
+*Documentation:*
 
 
 ### BaseStateClient
 
+*Documentation:*
 
 <table style="border-collapse:collapse;">
 <caption><i>Table:</i> Datasheet Properties of Component-Port <b>BaseStateClient</b></caption>
@@ -170,6 +181,7 @@
 
 ### NavVelSendClient
 
+*Documentation:*
  Typically connected to the robot base (e.g. SmartPioneerBaseServer). This port sends navigation commands v, w.
 
 <table style="border-collapse:collapse;">
@@ -194,6 +206,7 @@
 
 ### GoalEventServer
 
+*Documentation:*
 <p>Register with event state CDL_GOAL_NOT_REACHED to be notified when the stateful event switches to event state CDL_GOAL_REACHED.
 </p>
 <p> The CDL_GOAL_REACHED will be sent only once per activation.
@@ -207,6 +220,7 @@
 
 ### RobotBlockedEventServer
 
+*Documentation:*
 
 
 
@@ -215,6 +229,7 @@
 
 ### Internal Parameter: PathNav
 
+*Documentation:*
 
 <table style="border-collapse:collapse;">
 <caption><i>Table:</i> Internal Parameter <b>PathNav</b></caption>
@@ -283,6 +298,7 @@
 
 ### Internal Parameter: Cdl
 
+*Documentation:*
 
 <table style="border-collapse:collapse;">
 <caption><i>Table:</i> Internal Parameter <b>Cdl</b></caption>
@@ -421,6 +437,7 @@
 
 ### Internal Parameter: CdlRotate
 
+*Documentation:*
 
 <table style="border-collapse:collapse;">
 <caption><i>Table:</i> Internal Parameter <b>CdlRotate</b></caption>
@@ -489,6 +506,7 @@
 
 ### Internal Parameter: Server
 
+*Documentation:*
 
 <table style="border-collapse:collapse;">
 <caption><i>Table:</i> Internal Parameter <b>Server</b></caption>
@@ -540,8 +558,9 @@
 
 #### Trigger Instance: SETSTRATEGY
 
-is-active: <b>false</b>
+*Property:* active = **false**
 
+*Documentation:*
 <p>Set the CDL strategy. Available strategies:
 </p>
 <p>- REACTIVE: Reactive driving. The robot tries to maximize its speed by avoiding any obstacles. It will drive into the direction which allows the highest translational velocity and provides the largest remaining travel distance. This is the default value.
@@ -558,6 +577,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: FREEBEHAVIOR
 
+*Documentation:*
 <p>Activate or deactivate the free behavior in stalled situations. If activated, the robot will turn in a free direction in stalled situations. Values: ACTIVATE, DEACTIVATE
 </p>
 
@@ -579,6 +599,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: PATHNAVFREEBEHAVIOR
 
+*Documentation:*
 
 <table style="border-collapse:collapse;">
 <caption><i>Table:</i> Parameter-Instance <b>PATHNAVFREEBEHAVIOR</b></caption>
@@ -598,6 +619,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: LOOKUPTABLE
 
+*Documentation:*
 <p>Changes the lookup table. Lookup tables are precalculated in files and contain the kinematics and shape of the robot. Two lookup files can be specified in the ini configuration. This parameter allows to switch between these lookup tables at runtime. Note that you can use this parameter only in state neutral. Values: DEFAULT, SECOND. See Ini-Configuration.
 </p>
 
@@ -619,6 +641,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: TRANSVEL
 
+*Documentation:*
 <p>Set translation velocity ?vmin, ?vmax in [mm/s]. The values are thresholded by the robot's vmin and vmax inputs to calculate the lookup tables in cdlCalculate (CDL_V_TRA_).
 </p>
 
@@ -646,6 +669,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: ROTVEL
 
+*Documentation:*
 <p>Set rotation velocity minimum/maximum values ?wmin, ?wmax in [deg/s]. The values are thresholded by the robot's wmin and wmax inputs to calculate the lookup tables in cdlCalculate (CDL_V_ROT_).
 </p>
 
@@ -673,6 +697,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: GOALMODE
 
+*Documentation:*
 <p>Set goal type and goal source. Available modes:
 </p>
 <p>- ABSOLUTE: Use absolute goal position. Can only be used for goals that do not require path planning, as the CDL cannot handle local minimas. See strategies. Goal can be set with parameter GOALREGION(?x)(?y)(?a)(?id), while ?a is ignored. Used to approach a goal exactly.
@@ -704,6 +729,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: GOALREGION
 
+*Documentation:*
 <p>Set goal: ?x, ?y, angle ?a, id ?id. Sends an event CDL_GOAL_NOT_REACHED once a new goal is set. CDL_GOAL_REACHED is sent as soon as the goal is reached. All values must be set while ?x/?y or ?a may be ignored depending on the strategy and goalmode.
 </p>
 
@@ -737,11 +763,13 @@ is-active: <b>false</b>
 
 #### Trigger Instance: SETGOALREGION
 
-is-active: <b>false</b>
+*Property:* active = **false**
 
+*Documentation:*
 
 #### Parameter Instance: APPROACHDIST
 
+*Documentation:*
 <p>Set goal approach distance [mm]. The robot will approach until goal is within this distance.
 </p>
 
@@ -763,6 +791,7 @@ is-active: <b>false</b>
 
 #### Parameter Instance: ID
 
+*Documentation:*
 <p>Set CDL_ID. Used to synchronize components, for example with smartMapperGridMap and smartPlannerBreathFirstSearch.
 </p>
 
@@ -784,13 +813,15 @@ is-active: <b>false</b>
 
 #### Trigger Instance: SAVECURPOS
 
-is-active: <b>false</b>
+*Property:* active = **false**
 
+*Documentation:*
 <p>Save the current robot pose as ?id (for relative movements).
 </p>
 
 #### Parameter Instance: SAFETYCL
 
+*Documentation:*
 <p>Set global CDL safety clearance distance [mm]. Robot will keep this distance from obstacles when approaching.
 </p>
 
