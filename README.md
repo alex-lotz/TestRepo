@@ -36,7 +36,7 @@
 ## Component-Datasheet Properties
 
 <table style="border-collapse:collapse;">
-<caption>Component-Datasheet Properties</caption>
+<caption><i>Table:</i> Component-Datasheet Properties</caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
@@ -86,7 +86,7 @@
  Incoming laser scans that the CDL algorithm uses for obstacle avoidance, e.g. from SmartLaserLMS200Server
 
 <table style="border-collapse:collapse;">
-<caption>Component-Port Datasheet Properties of <b>LaserClient</b></caption>
+<caption><i>Table:</i> Datasheet Properties of Component-Port <b>LaserClient</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
@@ -123,7 +123,7 @@
 <p></p>
 
 <table style="border-collapse:collapse;">
-<caption>Component-Port Datasheet Properties of <b>NavVelSendServer</b></caption>
+<caption><i>Table:</i> Datasheet Properties of Component-Port <b>NavVelSendServer</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
@@ -154,7 +154,7 @@
 
 
 <table style="border-collapse:collapse;">
-<caption>Component-Port Datasheet Properties of <b>BaseStateClient</b></caption>
+<caption><i>Table:</i> Datasheet Properties of Component-Port <b>BaseStateClient</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
@@ -173,7 +173,7 @@
  Typically connected to the robot base (e.g. SmartPioneerBaseServer). This port sends navigation commands v, w.
 
 <table style="border-collapse:collapse;">
-<caption>Component-Port Datasheet Properties of <b>NavVelSendClient</b></caption>
+<caption><i>Table:</i> Datasheet Properties of Component-Port <b>NavVelSendClient</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
@@ -217,7 +217,7 @@
 
 
 <table style="border-collapse:collapse;">
-<caption>Internal Parameter: <b>PathNav</b></caption>
+<caption><i>Table:</i> Internal Parameter <b>PathNav</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -285,7 +285,7 @@
 
 
 <table style="border-collapse:collapse;">
-<caption>Internal Parameter: <b>Cdl</b></caption>
+<caption><i>Table:</i> Internal Parameter <b>Cdl</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -423,7 +423,7 @@
 
 
 <table style="border-collapse:collapse;">
-<caption>Internal Parameter: <b>CdlRotate</b></caption>
+<caption><i>Table:</i> Internal Parameter <b>CdlRotate</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -491,7 +491,7 @@
 
 
 <table style="border-collapse:collapse;">
-<caption>Internal Parameter: <b>Server</b></caption>
+<caption><i>Table:</i> Internal Parameter <b>Server</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -562,7 +562,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>FREEBEHAVIOR</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>FREEBEHAVIOR</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -581,7 +581,7 @@ is-active: <b>false</b>
 
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>PATHNAVFREEBEHAVIOR</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>PATHNAVFREEBEHAVIOR</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -602,7 +602,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>LOOKUPTABLE</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>LOOKUPTABLE</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -623,7 +623,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>TRANSVEL</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>TRANSVEL</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -650,7 +650,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>ROTVEL</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>ROTVEL</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -687,7 +687,7 @@ is-active: <b>false</b>
 <p></p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>GOALMODE</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>GOALMODE</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -708,7 +708,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>GOALREGION</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>GOALREGION</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -746,7 +746,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>APPROACHDIST</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>APPROACHDIST</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -767,7 +767,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>ID</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>ID</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
@@ -795,7 +795,7 @@ is-active: <b>false</b>
 </p>
 
 <table style="border-collapse:collapse;">
-<caption>Parameter-Instance: <b>SAFETYCL</b></caption>
+<caption><i>Table:</i> Parameter-Instance <b>SAFETYCL</b></caption>
 <tr style="background-color:#ccc;">
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
 <th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
