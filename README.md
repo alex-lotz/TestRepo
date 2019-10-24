@@ -563,8 +563,9 @@
 *Documentation:*
 <p>Set the CDL strategy. Available strategies:
 </p>
-<p>- REACTIVE: Reactive driving. The robot tries to maximize its speed by avoiding any obstacles. It will drive into the direction which allows the highest translational velocity and provides the largest remaining travel distance. This is the default value.
-- JOYSTICK: The robot can be controlled with a joystick. The CDL takes input from the port navigationVelocitySendServer and choses a trajectory closest to the v, w commands given by the joystick. See also server port navigationVelocitySendServer.
+<p>
+- REACTIVE: Reactive driving. The robot tries to maximize its speed by avoiding any obstacles. It will drive into the direction which allows the highest translational velocity and provides the largest remaining travel distance. This is the default value.<br>
+- JOYSTICK: The robot can be controlled with a joystick. The CDL takes input from the port navigationVelocitySendServer and choses a trajectory closest to the v, w commands given by the joystick. See also server port navigationVelocitySendServer.<br>
 - APPROACH_HALT: Approach a goal and halt when reached. Will send a CDL_GOAL_REACHED event via the cdlGoalEventServer when the goal is reached. Possible goal modes: ABSOLUTE, PLANNER.
 - APPROACH: Approach a target but switch to REACTIVE when the goal is reached rather than stopping as in strategy APPROACH_HALT. Will send a CDL_GOAL_REACHED event via the cdlGoalEventServer when the goal is reached. Can be used to achieve smooth movement when using intermediate goal points. Goal modes: ABSOLUTE, PLANNER.
 - ROTATE: Rotate into the given direction and report this by the CDL_GOAL_REACHED event. The heading can be given by absolute position, absolute angle or relative angle. Goal modes: ABSOLUTE, ANGLEABSOLUTE, ANGLERELATIVE.
