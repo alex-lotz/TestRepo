@@ -38,9 +38,9 @@
 <table style="border-collapse:collapse;">
 <caption>Component-Datasheet Properties</caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Property Name</th>
-<th style="border:1px solid black; padding: 5px;">Property Value</th>
-<th style="border:1px solid black; padding: 5px;">Property Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;">SpdxLicense</td>
@@ -88,9 +88,9 @@
 <table style="border-collapse:collapse;">
 <caption>Component-Port Datasheet Properties of <b>LaserClient</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Property Name</th>
-<th style="border:1px solid black; padding: 5px;">Property Value</th>
-<th style="border:1px solid black; padding: 5px;">Property Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;">CoordnateDimensions</td>
@@ -125,9 +125,9 @@
 <table style="border-collapse:collapse;">
 <caption>Component-Port Datasheet Properties of <b>NavVelSendServer</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Property Name</th>
-<th style="border:1px solid black; padding: 5px;">Property Value</th>
-<th style="border:1px solid black; padding: 5px;">Property Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;">CoordnateDimensions</td>
@@ -156,9 +156,9 @@
 <table style="border-collapse:collapse;">
 <caption>Component-Port Datasheet Properties of <b>BaseStateClient</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Property Name</th>
-<th style="border:1px solid black; padding: 5px;">Property Value</th>
-<th style="border:1px solid black; padding: 5px;">Property Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;">CoordnateDimensions</td>
@@ -175,9 +175,9 @@
 <table style="border-collapse:collapse;">
 <caption>Component-Port Datasheet Properties of <b>NavVelSendClient</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Property Name</th>
-<th style="border:1px solid black; padding: 5px;">Property Value</th>
-<th style="border:1px solid black; padding: 5px;">Property Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Property Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;">MotionPrimitive</td>
@@ -219,10 +219,10 @@
 <table style="border-collapse:collapse;">
 <caption>Internal Parameter: <b>PathNav</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>pathNavPredictedGoalPose_controll1_dist</b></td>
@@ -287,10 +287,10 @@
 <table style="border-collapse:collapse;">
 <caption>Internal Parameter: <b>Cdl</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>dataDir</b></td>
@@ -425,10 +425,10 @@
 <table style="border-collapse:collapse;">
 <caption>Internal Parameter: <b>CdlRotate</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>error</b></td>
@@ -493,10 +493,10 @@
 <table style="border-collapse:collapse;">
 <caption>Internal Parameter: <b>Server</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>plannerInit</b></td>
@@ -564,10 +564,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>FREEBEHAVIOR</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>free</b></td>
@@ -583,10 +583,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>PATHNAVFREEBEHAVIOR</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>free</b></td>
@@ -604,10 +604,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>LOOKUPTABLE</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>lt</b></td>
@@ -625,10 +625,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>TRANSVEL</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>vmin</b></td>
@@ -652,10 +652,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>ROTVEL</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>wmin</b></td>
@@ -689,10 +689,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>GOALMODE</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>gm</b></td>
@@ -710,10 +710,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>GOALREGION</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>goalX</b></td>
@@ -748,10 +748,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>APPROACHDIST</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>approachDistance</b></td>
@@ -769,10 +769,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>ID</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>id</b></td>
@@ -797,10 +797,10 @@ is-active: <b>false</b>
 <table style="border-collapse:collapse;">
 <caption>Parameter-Instance: <b>SAFETYCL</b></caption>
 <tr style="background-color:#ccc;">
-<th style="border:1px solid black; padding: 5px;">Attribute Name</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Type</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Value</th>
-<th style="border:1px solid black; padding: 5px;">Attribute Description</th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Name</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Type</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Value</i></th>
+<th style="border:1px solid black; padding: 5px;"><i>Attribute Description</i></th>
 </tr>
 <tr>
 <td style="border:1px solid black; padding: 5px;"><b>safetyClearance</b></td>
