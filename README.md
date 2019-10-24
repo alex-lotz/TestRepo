@@ -561,19 +561,21 @@
 *Property:* active = **false**
 
 *Documentation:*
-<p>Set the CDL strategy. Available strategies:
+<p>Set the CDL strategy.
 </p>
-<p>
-- REACTIVE: Reactive driving. The robot tries to maximize its speed by avoiding any obstacles. It will drive into the direction which allows the highest translational velocity and provides the largest remaining travel distance. This is the default value.<br>
-- JOYSTICK: The robot can be controlled with a joystick. The CDL takes input from the port navigationVelocitySendServer and choses a trajectory closest to the v, w commands given by the joystick. See also server port navigationVelocitySendServer.<br>
-- APPROACH_HALT: Approach a goal and halt when reached. Will send a CDL_GOAL_REACHED event via the cdlGoalEventServer when the goal is reached. Possible goal modes: ABSOLUTE, PLANNER.
-- APPROACH: Approach a target but switch to REACTIVE when the goal is reached rather than stopping as in strategy APPROACH_HALT. Will send a CDL_GOAL_REACHED event via the cdlGoalEventServer when the goal is reached. Can be used to achieve smooth movement when using intermediate goal points. Goal modes: ABSOLUTE, PLANNER.
-- ROTATE: Rotate into the given direction and report this by the CDL_GOAL_REACHED event. The heading can be given by absolute position, absolute angle or relative angle. Goal modes: ABSOLUTE, ANGLEABSOLUTE, ANGLERELATIVE.
-- FOLLOW: Drive into the given direction with the given translational velocity. Takes goals from the trackingClient port. Used e.g. by the smartLaserPersonTracker. Goal modes: PERSON.
-- BACKWARD: Move blindly backwards and stop as soon as the given distance has been covered. The distance is calculated to a previously saved position (parameter SAVECURPOS()). Note that this is blind driving. This strategy can be used if a mobile platform has no laser scanner mounted that points backwards. Fires CDL_GOAL_REACHED when distance has been covered.
-- PATH_NAV: TODO
+<p> Available strategies:
 </p>
-<p></p>
+<p> <ul>
+ <li>REACTIVE: Reactive driving. The robot tries to maximize its speed by avoiding any obstacles. It will drive into the direction which allows the highest translational velocity and provides the largest remaining travel distance. This is the default value.</li>
+ <li>JOYSTICK: The robot can be controlled with a joystick. The CDL takes input from the port navigationVelocitySendServer and choses a trajectory closest to the v, w commands given by the joystick. See also server port navigationVelocitySendServer.</li>
+ <li>APPROACH_HALT: Approach a goal and halt when reached. Will send a CDL_GOAL_REACHED event via the cdlGoalEventServer when the goal is reached. Possible goal modes: ABSOLUTE, PLANNER.</li>
+ <li>APPROACH: Approach a target but switch to REACTIVE when the goal is reached rather than stopping as in strategy APPROACH_HALT. Will send a CDL_GOAL_REACHED event via the cdlGoalEventServer when the goal is reached. Can be used to achieve smooth movement when using intermediate goal points. Goal modes: ABSOLUTE, PLANNER.</li>
+ <li>ROTATE: Rotate into the given direction and report this by the CDL_GOAL_REACHED event. The heading can be given by absolute position, absolute angle or relative angle. Goal modes: ABSOLUTE, ANGLEABSOLUTE, ANGLERELATIVE.</li>
+ <li>FOLLOW: Drive into the given direction with the given translational velocity. Takes goals from the trackingClient port. Used e.g. by the smartLaserPersonTracker. Goal modes: PERSON.</li>
+ <li>BACKWARD: Move blindly backwards and stop as soon as the given distance has been covered. The distance is calculated to a previously saved position (parameter SAVECURPOS()). Note that this is blind driving. This strategy can be used if a mobile platform has no laser scanner mounted that points backwards. Fires CDL_GOAL_REACHED when distance has been covered.</li>
+ <li>PATH_NAV: TODO</li>
+ </ul>
+</p>
 <p></p>
 
 #### Parameter Instance: FREEBEHAVIOR
@@ -700,16 +702,16 @@
 
 *Documentation:*
 <p>Set goal type and goal source. Available modes:
+ <ul>
+ <li>ABSOLUTE: Use absolute goal position. Can only be used for goals that do not require path planning, as the CDL cannot handle local minimas. See strategies. Goal can be set with parameter GOALREGION(?x)(?y)(?a)(?id), while ?a is ignored. Used to approach a goal exactly.</li>
+ <li>PLANNER: Goal specification from planner, port plannerClient. Typically used with path planners (e.g. smartPlannerBreathFirstSearch).</li>
+ <li>PERSON: Optimized parameters for person approaching, port trackingClient (e.g. smartLaserPersonTracker).</li>
+ <li>SAVED: Used for backward driving (strategy BACKWARD) as a point of reference to calculate the driven distance. The reference point must be saved with SAVECURPOS() first.</li>
+ <li>ANGLEABSOLUTE: Heading is given by an absolute angle [deg]. Used with strategy ROTATE as a reference. Goal direction first must be set with parameter GOALREGION(?x)(?y)(?a)(?id) while ?x and ?y are ignored.</li>
+ <li>ANGLERELATIVE: Heading is given by an angle [deg] relative to robot. Used with strategy ROTATE as a reference. Goal direction must be set with parameter GOALREGION(?x)(?y)(?a)(?id) while ?x and ?y are ignored. Rotates then relative to this saved position.</li>
+ <li>PATH_NAV: TODO</li>
+ </ul>
 </p>
-<p>- ABSOLUTE: Use absolute goal position. Can only be used for goals that do not require path planning, as the CDL cannot handle local minimas. See strategies. Goal can be set with parameter GOALREGION(?x)(?y)(?a)(?id), while ?a is ignored. Used to approach a goal exactly.
-- PLANNER: Goal specification from planner, port plannerClient. Typically used with path planners (e.g. smartPlannerBreathFirstSearch).
-- PERSON: Optimized parameters for person approaching, port trackingClient (e.g. smartLaserPersonTracker).
-- SAVED: Used for backward driving (strategy BACKWARD) as a point of reference to calculate the driven distance. The reference point must be saved with SAVECURPOS() first.
-- ANGLEABSOLUTE: Heading is given by an absolute angle [deg]. Used with strategy ROTATE as a reference. Goal direction first must be set with parameter GOALREGION(?x)(?y)(?a)(?id) while ?x and ?y are ignored.
-- ANGLERELATIVE: Heading is given by an angle [deg] relative to robot. Used with strategy ROTATE as a reference. Goal direction must be set with parameter GOALREGION(?x)(?y)(?a)(?id) while ?x and ?y are ignored. Rotates then relative to this saved position.
-- PATH_NAV: TODO
-</p>
-<p></p>
 <p></p>
 
 <table style="border-collapse:collapse;">
